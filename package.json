@@ -1,0 +1,32 @@
+{
+  "name": "action-pagerduty",
+  "version": "1.0.0",
+  "description": "GitHub Action to send a PagerDuty alert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/action-pagerduty.git"
+  },
+  "keywords": [
+    "PagerDuty",
+    "Actions"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/action-pagerduty/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/action-pagerduty#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^4.0.0",
+    "@digitalbazaar/http-client": "^1.1.0"
+  }
+}
